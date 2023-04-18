@@ -411,8 +411,8 @@ type (
 
 	// RiskAssessment ...
 	RiskAssessment struct {
-		Flagged *bool  `json:"flagged,omitempty"`
-		Score   uint64 `json:"score,omitempty"`
+		Flagged *bool   `json:"flagged,omitempty"`
+		Score   float64 `json:"score"`
 	}
 
 	// Recipient ...
