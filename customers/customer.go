@@ -1,9 +1,5 @@
 package customers
 
-import (
-	"github.com/checkout/checkout-sdk-go"
-)
-
 type (
 	// Request -
 	Request struct {

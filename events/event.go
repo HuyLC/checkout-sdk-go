@@ -3,9 +3,8 @@ package events
 import (
 	"time"
 
-	"github.com/checkout/checkout-sdk-go"
-	"github.com/checkout/checkout-sdk-go/common"
-	"github.com/checkout/checkout-sdk-go/payments"
+	"github.com/laziness-coders/checkout-sdk-go/common"
+	"github.com/laziness-coders/checkout-sdk-go/payments"
 )
 
 type (

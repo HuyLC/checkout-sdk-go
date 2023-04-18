@@ -3,10 +3,10 @@ package payments
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/laziness-coders/checkout-sdk-go"
 	"time"
 
-	"github.com/checkout/checkout-sdk-go"
-	"github.com/checkout/checkout-sdk-go/common"
+	"github.com/laziness-coders/checkout-sdk-go/common"
 )
 
 type (
@@ -59,6 +59,11 @@ type (
 		Stored         *bool           `json:"stored,omitempty"`
 		BillingAddress *common.Address `json:"billing_address,omitempty"`
 		Phone          *common.Phone   `json:"phone,omitempty"`
+		Scheme         string          `json:"scheme,omitempty"`
+		SchemeLocal    string          `json:"scheme_local,omitempty"`
+		Last4          string          `json:"last4,omitempty"`
+		Fingerprint    string          `json:"fingerprint,omitempty"`
+		Bin            string          `json:"bin,omitempty"`
 	}
 
 	// TokenSource ...
@@ -406,7 +411,8 @@ type (
 
 	// RiskAssessment ...
 	RiskAssessment struct {
-		Flagged *bool `json:"flagged,omitempty"`
+		Flagged *bool  `json:"flagged,omitempty"`
+		Score   uint64 `json:"score,omitempty"`
 	}
 
 	// Recipient ...
@@ -433,6 +439,7 @@ type (
 		AcquirerReferenceNumber  string             `json:"acquirer_reference_number,omitempty"`
 		RetrievalReferenceNumber string             `json:"retrieval_reference_number,omitempty"`
 		SenderInformation        *SenderInformation `json:"senderInformation,omitempty"`
+		RecommendationCode       string             `json:"recommendation_code,omitempty"`
 	}
 
 	// SenderInformation -

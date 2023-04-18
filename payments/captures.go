@@ -1,9 +1,5 @@
 package payments
 
-import (
-	"github.com/checkout/checkout-sdk-go"
-)
-
 // CaptureType ...
 type CaptureType string
 

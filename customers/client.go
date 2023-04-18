@@ -4,8 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/checkout/checkout-sdk-go"
-	"github.com/checkout/checkout-sdk-go/httpclient"
+	"github.com/laziness-coders/checkout-sdk-go/httpclient"
 )
 
 const path = "customers"
