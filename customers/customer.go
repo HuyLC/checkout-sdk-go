@@ -1,5 +1,7 @@
 package customers
 
+import "github.com/laziness-coders/checkout-sdk-go"
+
 type (
 	// Request -
 	Request struct {

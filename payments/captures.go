@@ -1,5 +1,7 @@
 package payments
 
+import "github.com/laziness-coders/checkout-sdk-go"
+
 // CaptureType ...
 type CaptureType string
 

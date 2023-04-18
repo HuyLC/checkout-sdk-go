@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"encoding/csv"
 	"encoding/json"
+	"github.com/laziness-coders/checkout-sdk-go"
 	"io"
 	"io/ioutil"
 	"net/http"

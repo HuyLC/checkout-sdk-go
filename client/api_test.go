@@ -1,6 +1,7 @@
 package client
 
 import (
+	"github.com/laziness-coders/checkout-sdk-go"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"

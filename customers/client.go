@@ -2,6 +2,7 @@ package customers
 
 import (
 	"fmt"
+	"github.com/laziness-coders/checkout-sdk-go"
 	"net/http"
 
 	"github.com/laziness-coders/checkout-sdk-go/httpclient"

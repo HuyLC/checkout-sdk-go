@@ -1,6 +1,7 @@
 package disputes
 
 import (
+	"github.com/laziness-coders/checkout-sdk-go"
 	"time"
 
 	"github.com/laziness-coders/checkout-sdk-go/common"

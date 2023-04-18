@@ -1,5 +1,7 @@
 package payments
 
+import "github.com/laziness-coders/checkout-sdk-go"
+
 // VoidsRequest ...
 type VoidsRequest struct {
 	Reference string            `json:"reference,omitempty"`

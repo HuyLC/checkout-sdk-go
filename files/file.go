@@ -3,6 +3,7 @@ package files
 import (
 	"bytes"
 	"fmt"
+	"github.com/laziness-coders/checkout-sdk-go"
 	"io"
 	"mime/multipart"
 	"net/http"

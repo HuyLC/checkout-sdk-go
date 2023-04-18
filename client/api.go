@@ -1,6 +1,7 @@
 package client
 
 import (
+	"github.com/laziness-coders/checkout-sdk-go"
 	"github.com/laziness-coders/checkout-sdk-go/customers"
 	"github.com/laziness-coders/checkout-sdk-go/disputes"
 	"github.com/laziness-coders/checkout-sdk-go/events"
