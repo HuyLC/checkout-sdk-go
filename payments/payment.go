@@ -3,8 +3,9 @@ package payments
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/laziness-coders/checkout-sdk-go"
 	"time"
+
+	"github.com/laziness-coders/checkout-sdk-go"
 
 	"github.com/laziness-coders/checkout-sdk-go/common"
 )
@@ -432,8 +433,8 @@ type (
 	// Processing - Use the processing object to influence or
 	// override the data sent during card processing
 	Processing struct {
-		Mid                      string             `json:"mid,omitempty"`
-		Aft                      *bool              `json:"aft,omitempty"`
+		Mid string `json:"mid,omitempty"`
+		// Aft                      *bool              `json:"aft,omitempty"`
 		DLocal                   *DLocal            `json:"dlocal,omitempty"`
 		AcquirerTransactionID    string             `json:"acquirer_transaction_id,omitempty"`
 		AcquirerReferenceNumber  string             `json:"acquirer_reference_number,omitempty"`
