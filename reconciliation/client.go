@@ -3,11 +3,11 @@ package reconciliation
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/laziness-coders/checkout-sdk-go"
+	"github.com/HuyLC/checkout-sdk-go"
 	"net/http"
 
+	"github.com/HuyLC/checkout-sdk-go/httpclient"
 	"github.com/google/go-querystring/query"
-	"github.com/laziness-coders/checkout-sdk-go/httpclient"
 )
 
 const paymentsPath = "reporting/payments"

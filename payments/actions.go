@@ -1,10 +1,10 @@
 package payments
 
 import (
-	"github.com/laziness-coders/checkout-sdk-go"
+	"github.com/HuyLC/checkout-sdk-go"
 	"time"
 
-	"github.com/laziness-coders/checkout-sdk-go/common"
+	"github.com/HuyLC/checkout-sdk-go/common"
 )
 
 const (

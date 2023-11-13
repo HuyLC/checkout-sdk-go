@@ -4,13 +4,13 @@ import (
 	"bytes"
 	"encoding/csv"
 	"encoding/json"
-	"github.com/laziness-coders/checkout-sdk-go"
+	"github.com/HuyLC/checkout-sdk-go"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"strings"
 
-	"github.com/laziness-coders/checkout-sdk-go/common"
+	"github.com/HuyLC/checkout-sdk-go/common"
 )
 
 var client *HTTPClient

@@ -1,4 +1,4 @@
-module github.com/laziness-coders/checkout-sdk-go
+module github.com/HuyLC/checkout-sdk-go
 
 go 1.18
 

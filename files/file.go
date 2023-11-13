@@ -3,7 +3,7 @@ package files
 import (
 	"bytes"
 	"fmt"
-	"github.com/laziness-coders/checkout-sdk-go"
+	"github.com/HuyLC/checkout-sdk-go"
 	"io"
 	"mime/multipart"
 	"net/http"
@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/laziness-coders/checkout-sdk-go/common"
+	"github.com/HuyLC/checkout-sdk-go/common"
 )
 
 type (

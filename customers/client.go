@@ -2,10 +2,10 @@ package customers
 
 import (
 	"fmt"
-	"github.com/laziness-coders/checkout-sdk-go"
+	"github.com/HuyLC/checkout-sdk-go"
 	"net/http"
 
-	"github.com/laziness-coders/checkout-sdk-go/httpclient"
+	"github.com/HuyLC/checkout-sdk-go/httpclient"
 )
 
 const path = "customers"

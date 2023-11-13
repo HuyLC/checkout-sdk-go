@@ -1,17 +1,17 @@
 package client
 
 import (
-	"github.com/laziness-coders/checkout-sdk-go"
-	"github.com/laziness-coders/checkout-sdk-go/customers"
-	"github.com/laziness-coders/checkout-sdk-go/disputes"
-	"github.com/laziness-coders/checkout-sdk-go/events"
-	"github.com/laziness-coders/checkout-sdk-go/files"
-	"github.com/laziness-coders/checkout-sdk-go/instruments"
-	"github.com/laziness-coders/checkout-sdk-go/payments"
-	"github.com/laziness-coders/checkout-sdk-go/reconciliation"
-	"github.com/laziness-coders/checkout-sdk-go/sources"
-	"github.com/laziness-coders/checkout-sdk-go/tokens"
-	"github.com/laziness-coders/checkout-sdk-go/webhooks"
+	"github.com/HuyLC/checkout-sdk-go"
+	"github.com/HuyLC/checkout-sdk-go/customers"
+	"github.com/HuyLC/checkout-sdk-go/disputes"
+	"github.com/HuyLC/checkout-sdk-go/events"
+	"github.com/HuyLC/checkout-sdk-go/files"
+	"github.com/HuyLC/checkout-sdk-go/instruments"
+	"github.com/HuyLC/checkout-sdk-go/payments"
+	"github.com/HuyLC/checkout-sdk-go/reconciliation"
+	"github.com/HuyLC/checkout-sdk-go/sources"
+	"github.com/HuyLC/checkout-sdk-go/tokens"
+	"github.com/HuyLC/checkout-sdk-go/webhooks"
 )
 
 // API -
